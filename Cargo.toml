@@ -24,7 +24,7 @@ members = [
   "toolkit/crashreporter/minidump-analyzer/android/export",
   "toolkit/crashreporter/mozwer-rust",
   "toolkit/library/gtest/rust",
-  "toolkit/library/rust/",
+  "toolkit/library/rust/", "security/lockstore/lockstore-gk",
 ]
 
 # Excluded crates may be built as dependencies, but won't be considered members

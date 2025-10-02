@@ -2615,6 +2615,7 @@ dependencies = [
  "l10nregistry-ffi",
  "libz-rs-sys",
  "localization-ffi",
+ "lockstore-gk",
  "log",
  "mapped_hyph",
  "mdns_service",
@@ -3867,6 +3868,21 @@ checksum = "435011366fe56583b16cf956f9df0095b405b82d76425bc8981c0e22e60ec4df"
 dependencies = [
  "autocfg",
  "scopeguard",
+]
+
+[[package]]
+name = "lockstore-gk"
+version = "0.1.0"
+dependencies = [
+ "hex",
+ "log",
+ "nserror",
+ "nss-gk-api",
+ "nsstring",
+ "rusqlite 0.37.0",
+ "static_prefs",
+ "thin-vec",
+ "xpcom",
 ]
 
 [[package]]
